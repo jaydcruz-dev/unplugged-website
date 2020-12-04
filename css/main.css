@@ -222,7 +222,8 @@ footer p {
 
 
 .hero-area {
-    background: url('../img/jake.png');
+    background: url('../img/jake.jpg') center no-repeat #333;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -240,7 +241,8 @@ aside {
 /******************** features area *****************/
 
 .features {
-    background: url('../img/raw.png');
+    background: url('../img/raw.jpg') center no-repeat #333;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -475,6 +477,12 @@ header nav ul {
 
 
 /* Hero Area */
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
 
 /* Aside */
 
