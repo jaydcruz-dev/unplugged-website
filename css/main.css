@@ -85,66 +85,74 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
+========================================================================== */
 
-   /* General Styles */
+/* General Styles */
 
-   html {
+html {
      font-size: 16px;
-   }
+}
 
-   body {
+body {
       color: #e2e3ed;
       font-family: 'Open Sans', sans-serif;
       font-size: 1em;
       text-align: left;
-   }
+}
 
-   ul,
-   ol {
+ul,
+ol {
       list-style-type: none;
-   }
+}
 
-   a {
+a {
      color: #e2e3ed;
      text-decoration: none;
-   }
+}
 
-   h2 {
+h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
      font-weight: 500;
-   }
+}
 
-   h3,
-   h4 {
+h3,
+h4 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.125em;
      font-weight: 500;
      margin: 20px 0;
-   }
+}
 
-   p {
+p {
      font-size: .875em;
      line-height: 1.285;
-   }
+}
 
-   img {
+img {
+     width: 100%;
+}
 
-   }
+figure {
+     margin: 0;
+}
 
-   figure {
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
-   }
-
-   address {
+address {
      font-style: normal;
-   }
+}
 
-   .content-wrapper {
+.content-wrapper {
      width: 90%;
      margin: 50px 0;
-   }
+}
 
 
 /************************** header-footer section *****************************/
@@ -224,6 +232,7 @@ footer p {
 .hero-area {
     background: url('../img/jake.jpg') center no-repeat #333;
     background-size: cover;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -236,6 +245,11 @@ aside {
     align-items: center;
     flex-flow: row wrap;
 }
+
+aside .form{
+  margin-top: 30px;
+}
+
 
 
 /******************** features area *****************/
