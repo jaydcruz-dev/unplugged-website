@@ -170,6 +170,7 @@ address {
 }
 
 
+
 /************************** header-footer section *****************************/
 
 header,
@@ -215,6 +216,7 @@ header nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 footer {
@@ -311,7 +313,7 @@ aside .form{
 }
 
 .reviews h3 {
-    width: 48%;
+    width: 55%;
     margin: 20px 0;
 }
 
@@ -495,6 +497,16 @@ input[type=button] {
       margin: 100px 0;
 }
 
+h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+}
+
 /* Header */
 
 header {
@@ -567,11 +579,17 @@ aside .content-wrapper .form {
 /* Reviews */
 .reviews article {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
 }
 
+.reviews article figure,
 .reviews article div {
-      width:
+      width: 49%;
+}
+
+.reviews h3 {
+    width: 75%;
+    margin: 0;
 }
 
 /* Footer */
