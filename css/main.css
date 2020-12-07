@@ -228,7 +228,6 @@ footer p {
   margin: 0;
 }
 
-
 .hero-area {
     background: url('../img/jake.jpg') center no-repeat #333;
     background-size: cover;
@@ -249,8 +248,6 @@ aside {
 aside .form{
   margin-top: 30px;
 }
-
-
 
 /******************** features area *****************/
 
@@ -335,6 +332,10 @@ aside .form{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.contact-content p {
+    margin: 0;
 }
 
 /************************* Faq area ***************************/
@@ -589,10 +590,15 @@ footer .copyright {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 20px;
 }
 
 .mission-content p {
         width: 45%;
+}
+
+.map figure {
+    padding-bottom: 45.5%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -603,6 +609,10 @@ footer .copyright {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+}
+
+.contact-content h4 {
+    font-size: 1.5em;
 }
 
 /* ==========================================================================
@@ -661,10 +671,18 @@ aside .content-wrapper .form {
        About Page
 ========================================================================== */
 
+.map figure {
+    padding-bottom: 37.5%;
+}
+
 .mission h2,
 .contact-section .content-wrapper h2 {
     width: 100%;
     font-size: 3em;
+}
+
+.contact-content h4 {
+    font-size: 1.875em;
 }
 
 /* ==========================================================================
